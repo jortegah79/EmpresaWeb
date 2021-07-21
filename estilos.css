@@ -19,6 +19,7 @@ body {
 
 #header-logo {
     display: flex;
+    margin-left: 20px;
 }
 
 #header-img {
@@ -33,36 +34,105 @@ body {
 
 .nav-link {
     margin: 10px;
-    display: inline-block;
+    display: inline;
 }
 
 #main {
     width: 80vw;
-    margin: 80px auto;
-    border: 1px solid black;
-    background-color: black;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#main-div-form {
-    border: 1px solid blue;
-    background-color: blue;
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form label {
+    font-family: Zen Tokyo Zoo;
+    font-size: xx-large;
+}
+
+.form-into {
+    font-size: 1.3em;
+    display: inline;
+    margin: 10px;
+}
+
+.descripcion {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
 }
 
 #main-nosotros {
-    border: 1px solid pink;
-    background-color: pink;
+    width: 80%;
+    margin: 30px auto;
 }
 
-#main-video {
-    border: 1px solid violet;
-    background-color: violet;
+img {
+    width: 50%;
+    height: 50%;
 }
 
-#main-productos {}
+#main-productos {
+    margin-top: 100px;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
 
-.producto {}
+.producto {
+    width: 30%;
+    margin: 0 auto;
+    height: 340px;
+    padding-bottom: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
-#footer {
-    border: 1px solid green;
-    background-color: green;
+.producto h2 {
+    background-color: #bbbbbb;
+    border-top: 5px solid #bbbbbb;
+    border-bottom: 5px solid #bbbbbb;
+}
+
+P {
+    line-height: 0.9em;
+}
+
+h3 {
+    line-height: 0.9em;
+}
+
+.producto input {
+    width: 25%;
+    margin: 0 auto;
+}
+
+#footerr {
+    background-color: #bbbbbb;
+    width: 60vw;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#footerr-links ul li {
+    display: inline-block;
+}
+
+footer {
+    float: right;
 }
