@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+body {
+    background: radial-gradient(circle, rgb(250, 195, 143), rgb(252, 168, 99));
+    font-family: Titillium Web, monospace;
+    font-size: 0.9em;
+    color: #444444
+}
+
+#header {
+    display: flex;
+}
+
+#header-img {
+    margin-top: 20px;
+    height: 50px;
+    width: 75px;
+}
+
+#nav-var ul li {
+    display: block;
+    margin: 10px;
+}
+
+@media screen and (min-width:700px) and (max-width:950px) {
+    #nav-var {
+        margin-left: 10%;
+    }
+    #nav-var ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+    #nav-var ul li {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:951px) {
+    #nav-var {
+        margin-left: 30%;
+    }
+    #nav-var ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
+#main {
+    border: 1px solid black;
+    background-color: black;
+}
+
+#main-div-form {
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+#main-nosotros {
+    border: 1px solid pink;
+    background-color: pink;
+}
+
+#main-video {
+    border: 1px solid violet;
+    background-color: violet;
+}
+
+#main-productos {}
+
+.producto {}
+
+#footer {
+    border: 1px solid green;
+    background-color: green;
+}
