@@ -20,7 +20,7 @@ body {
     height: 80px;
     background-color: #eeeeee;
     display: grid;
-    grid-template-columns: 2fr 1fr 100px;
+    grid-template-columns: 300px 1fr 1fr;
 }
 
 #header-logo {
@@ -86,6 +86,7 @@ a:hover {
 }
 
 #submit {
+    font-weight: bold;
     width: 30%;
     border: none;
     background: #aa3333;
@@ -211,7 +212,7 @@ footer {
         background-color: #eeeeee;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50px 50px;
+        grid-template-rows: 50px 0 50px;
     }
     #main {
         width: 80vw;
