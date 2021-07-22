@@ -237,6 +237,17 @@ footer {
         width: 65%;
         height: 65%;
     }
+    .producto {
+        width: 300px;
+        margin: 10px auto;
+        height: 293px;
+        padding-bottom: 40px;
+        border: 1px solid #aa3333;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
     #footerr {
         background-color: #bbbbbb;
         width: 100%;
